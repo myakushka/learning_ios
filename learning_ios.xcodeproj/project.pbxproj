@@ -10,11 +10,14 @@
 		30B0F177FAA4CC42909A0A2D /* learning_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30B0F5299D0702C2CF0E7330 /* learning_ios.xcdatamodeld */; };
 		30B0F3914EEA0A4570E9298B /* learning_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B0F240F69B685BB373320E /* learning_iosTests.swift */; };
 		30B0F4A9C54381808BD48D74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30B0FDE76537C5AE7A69E6E7 /* Assets.xcassets */; };
+		30B0F56032F31E6758EC76A1 /* StudyUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30B0F404794DD2801506F506 /* StudyUnit.cpp */; };
+		30B0F84913161494EABCE034 /* StudyUnitModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30B0F391176992E0E4F9F60E /* StudyUnitModel.cpp */; };
 		30B0FB7B731C8D04D9400045 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B0FA4651450580BE7C8AE5 /* Main.storyboard */; };
+		30B0FBC721F713F1285C0F35 /* LocaleConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30B0F39C6F8EE179517B8A2F /* LocaleConverter.cpp */; };
 		30B0FBDB4885A5D21D98BE14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B0FB932A226ACD30D8FD09 /* LaunchScreen.storyboard */; };
 		30B0FF34ECBE4BD4EEAD5741 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B0FA3E52DD22E018E41EDE /* ViewController.swift */; };
 		30B0FFC9148BE977E76061CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B0FD02275CB9EEFB221F6A /* AppDelegate.swift */; };
-		FEB8EC8B20728B8D008731B8 /* CppInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEB8EC8920728B8D008731B8 /* CppInterface.cpp */; };
+		FEB8EC8B20728B8D008731B8 /* CppFacade.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEB8EC8920728B8D008731B8 /* CppFacade.cpp */; };
 		FEB8EC8C20728B8D008731B8 /* CppClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEB8EC8A20728B8D008731B8 /* CppClass.cpp */; };
 		FEB8EC8E20728BF7008731B8 /* CppWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = FEB8EC8D20728BF7008731B8 /* CppWrapper.mm */; };
 /* End PBXBuildFile section */
@@ -31,19 +34,26 @@
 
 /* Begin PBXFileReference section */
 		30B0F0DFCCA0762DFDB7F507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30B0F1A4EED7D497D65E7204 /* LocaleConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocaleConverter.h; sourceTree = "<group>"; };
 		30B0F240F69B685BB373320E /* learning_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learning_iosTests.swift; sourceTree = "<group>"; };
+		30B0F391176992E0E4F9F60E /* StudyUnitModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StudyUnitModel.cpp; sourceTree = "<group>"; };
+		30B0F39C6F8EE179517B8A2F /* LocaleConverter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LocaleConverter.cpp; sourceTree = "<group>"; };
+		30B0F404794DD2801506F506 /* StudyUnit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StudyUnit.cpp; sourceTree = "<group>"; };
 		30B0F4891E8D2F6232EC0A56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30B0F554653DAE62DC7E3D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		30B0F5AD2420C8B8BCAF5AA4 /* learning_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = learning_ios.xcdatamodel; sourceTree = "<group>"; };
 		30B0F63A68A3529A00A5551E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		30B0F7B5ACB6851978737C8D /* StudyUnitModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyUnitModel.h; sourceTree = "<group>"; };
+		30B0F80CA471D9F7E18A1E78 /* Locale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Locale.h; sourceTree = "<group>"; };
 		30B0FA3E52DD22E018E41EDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		30B0FC0D55E3EAD7ECE6B8EF /* learning_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learning_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B0FD02275CB9EEFB221F6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30B0FDE76537C5AE7A69E6E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30B0FDEE3F6309E398C6CAE0 /* learning_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = learning_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEB8EC8720728B8D008731B8 /* CppInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CppInterface.h; sourceTree = "<group>"; };
+		30B0FEB6475A8C06C6C65426 /* StudyUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyUnit.h; sourceTree = "<group>"; };
+		FEB8EC8720728B8D008731B8 /* CppFacade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CppFacade.h; sourceTree = "<group>"; };
 		FEB8EC8820728B8D008731B8 /* CppClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CppClass.h; sourceTree = "<group>"; };
-		FEB8EC8920728B8D008731B8 /* CppInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CppInterface.cpp; sourceTree = "<group>"; };
+		FEB8EC8920728B8D008731B8 /* CppFacade.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CppFacade.cpp; sourceTree = "<group>"; };
 		FEB8EC8A20728B8D008731B8 /* CppClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CppClass.cpp; sourceTree = "<group>"; };
 		FEB8EC8D20728BF7008731B8 /* CppWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CppWrapper.mm; sourceTree = "<group>"; };
 		FEB8EC8F20728C2D008731B8 /* CppWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CppWrapper.h; sourceTree = "<group>"; };
@@ -94,6 +104,20 @@
 			path = learning_ios;
 			sourceTree = "<group>";
 		};
+		30B0FA0491BB132595625A53 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				30B0F391176992E0E4F9F60E /* StudyUnitModel.cpp */,
+				30B0F7B5ACB6851978737C8D /* StudyUnitModel.h */,
+				30B0F80CA471D9F7E18A1E78 /* Locale.h */,
+				30B0F404794DD2801506F506 /* StudyUnit.cpp */,
+				30B0FEB6475A8C06C6C65426 /* StudyUnit.h */,
+				30B0F39C6F8EE179517B8A2F /* LocaleConverter.cpp */,
+				30B0F1A4EED7D497D65E7204 /* LocaleConverter.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		30B0FA7457A987E31CB71964 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,10 +140,11 @@
 		FEB8EC8620728B8D008731B8 /* Cpp */ = {
 			isa = PBXGroup;
 			children = (
-				FEB8EC8720728B8D008731B8 /* CppInterface.h */,
+				FEB8EC8720728B8D008731B8 /* CppFacade.h */,
 				FEB8EC8820728B8D008731B8 /* CppClass.h */,
-				FEB8EC8920728B8D008731B8 /* CppInterface.cpp */,
+				FEB8EC8920728B8D008731B8 /* CppFacade.cpp */,
 				FEB8EC8A20728B8D008731B8 /* CppClass.cpp */,
+				30B0FA0491BB132595625A53 /* Model */,
 			);
 			path = Cpp;
 			sourceTree = "<group>";
@@ -220,11 +245,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				30B0FFC9148BE977E76061CA /* AppDelegate.swift in Sources */,
-				FEB8EC8B20728B8D008731B8 /* CppInterface.cpp in Sources */,
+				FEB8EC8B20728B8D008731B8 /* CppFacade.cpp in Sources */,
 				30B0F177FAA4CC42909A0A2D /* learning_ios.xcdatamodeld in Sources */,
 				FEB8EC8E20728BF7008731B8 /* CppWrapper.mm in Sources */,
 				30B0FF34ECBE4BD4EEAD5741 /* ViewController.swift in Sources */,
 				FEB8EC8C20728B8D008731B8 /* CppClass.cpp in Sources */,
+				30B0F84913161494EABCE034 /* StudyUnitModel.cpp in Sources */,
+				30B0F56032F31E6758EC76A1 /* StudyUnit.cpp in Sources */,
+				30B0FBC721F713F1285C0F35 /* LocaleConverter.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
