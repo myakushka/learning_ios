@@ -379,7 +379,7 @@
 				INFOPLIST_FILE = learning_ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.myakushka.learning-ios-2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myakushka.learning-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "learning_ios/SwiftCpp-Bridging-Header.h";
@@ -412,7 +412,7 @@
 				INFOPLIST_FILE = learning_ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.myakushka.learning-ios-2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myakushka.learning-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "learning_ios/SwiftCpp-Bridging-Header.h";
